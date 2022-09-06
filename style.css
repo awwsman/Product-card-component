@@ -127,11 +127,13 @@ button img {
     overflow:visible;
     min-height: 100vh;
     align-items:initial;
+    color: red;
   }
   .container {
     flex-direction: column;
     width: 375px;
     margin: 20px 0;
+    color:black
   
     
   }
