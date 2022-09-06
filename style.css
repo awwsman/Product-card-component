@@ -122,10 +122,18 @@ button img {
 }
 
 /* mobile design */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+  body{
+    overflow:visible;
+    min-height: 100vh;
+    align-items:initial;
+  }
   .container {
     flex-direction: column;
     width: 375px;
+    margin: 20px 0;
+  
+    
   }
 
   .product-image .img-desktop {
